@@ -1,0 +1,23 @@
+{
+    "id": "pinyin",
+    "name": "pinyin",
+    "description": "App description...",
+    "version": "0.1.0",
+    "dependencies": {
+        "gini": "*"
+    },
+    "composer": {
+        "repositories": [
+            {
+                "type": "composer",
+                "url": "https://packagist.phpcomposer.com"
+            }
+        ],
+        "config": {
+            "secure-http": false
+        },
+        "require": {
+            "yurunsoft/chinese-util" : "~1.0"
+        }
+    }
+}

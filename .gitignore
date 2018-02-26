@@ -1,0 +1,8 @@
+vendor/
+cache/
+web/
+raw/config/@*
+composer.lock
+data/log
+modules/
+composer.json
